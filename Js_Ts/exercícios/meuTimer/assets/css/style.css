@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #006137;
+    --primary-color-darker: #004426;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    background: var(--primary-color)
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.relogio {
+    font-size: 3em;
+}
+
+.pausado {
+    color: red;
+}

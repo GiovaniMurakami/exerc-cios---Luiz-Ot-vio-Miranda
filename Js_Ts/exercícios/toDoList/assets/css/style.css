@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #006137;
+    --primary-color-darker: #004426;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    background: var(--primary-color)
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+}
